@@ -1,6 +1,7 @@
 package ooplap5;
 
 import java.util.ArrayList;
+
 public class TestArrayList {
     public static void main(String[] args) {
         //ArrayList
@@ -40,4 +41,3 @@ public class TestArrayList {
 
 
 }//class
-
