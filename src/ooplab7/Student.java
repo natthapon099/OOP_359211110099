@@ -14,30 +14,37 @@ public class Student {
     private String name;
     private String address;
     private String gender;
-
     //Constructor
     //Default Constructor
-    public Student() {
+    public Student(){}
+    //Constructor by own
+    public Student(String id,String n,String a,String g){
+        //assign data to properties
+        this.id = id;
+        this.name = n;
+        this.address = a;
+        this.gender = g;
+    }//Student
+    //getter and setter methods
+
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", gender='" + gender + '\'' +
+                '}';
     }
 
-    //Constructor by own
-    public Student(String id, String n, String a, String g,) {
+    public String getId() {
+        return id;
     }
-    //assign data to properties
-    this.id =id;
-}
-    this.name = n,
-            }
-            this.Address = a;
-    this.Gender =g;
-}//Student
-//getter and setter methods
-public  String getID() {
-    return this.id;
-}
-public void setId(String id) {
-    this.id = id;
-}
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -61,15 +68,5 @@ public void setId(String id) {
 
     public void setGender(String gender) {
         this.gender = gender;
-    }
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name=" + name +
-                ", address=" + address +
-                ", gender=" + gender +
-                '}';
     }
 }//class
