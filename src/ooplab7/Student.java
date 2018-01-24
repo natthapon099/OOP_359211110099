@@ -10,10 +10,10 @@ package ooplab7;
 
 public class Student {
     //properties of Student
-    private string id;
-    private string name;
-    private string address;
-    private string gender;
+    private String id;
+    private String name;
+    private String address;
+    private String gender;
 
     //Constructor
     //Default Constructor
@@ -25,9 +25,11 @@ public class Student {
     }
     //assign data to properties
     this.id =id;
-    this.name =n,
-            this.addres =a;
-    this.gender =g;
+}
+    this.name = n,
+            }
+            this.Address = a;
+    this.Gender =g;
 }//Student
 //getter and setter methods
 public  String getID() {
