@@ -42,5 +42,3 @@ public class Student {
         this.program = program;
     }
 }
-
-
