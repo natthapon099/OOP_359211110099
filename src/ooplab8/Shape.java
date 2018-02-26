@@ -1,6 +1,6 @@
 package ooplab8;
 
-public class Shape {
+public interface Shape {
     double getArea();
 }//interface
 
