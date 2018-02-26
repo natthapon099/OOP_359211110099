@@ -22,14 +22,17 @@ public class Rectangle implements Shape {
     }
 
     public void setWidth(double width) {
+
         this.width = width;
     }
 
     public double getLength() {
+
         return length;
     }
 
     public void setLength(double length) {
+
         this.length = length;
     }
 
