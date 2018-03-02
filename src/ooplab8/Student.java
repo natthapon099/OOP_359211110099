@@ -5,7 +5,7 @@ import java.util.Date;
 // Student is sub-class of person class
 // Person is super-class
 
-public class Student {
+public class Student extends Person {
     private String id;
     private String program;
     public Student(String name, String gender,
